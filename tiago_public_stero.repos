@@ -1,0 +1,86 @@
+repositories:
+  urdf_test:
+    type: git
+    url: https://github.com/pal-robotics/urdf_test.git
+    version: 2.0.3
+    # version: humble-devel
+  pal_urdf_utils:
+    type: git
+    url: https://github.com/pal-robotics/pal_urdf_utils.git
+    version: 2.0.1
+    # version: humble-devel
+  launch_pal:
+    type: git
+    url: https://github.com/pal-robotics/launch_pal.git
+    version: 0.3.0
+    # version: master
+  pal_gazebo_worlds:
+    type: git
+    url: https://github.com/pal-robotics/pal_gazebo_worlds.git
+    version: 4.0.4
+    # version: humble-devel
+  play_motion2:
+    type: git
+    url: https://github.com/pal-robotics/play_motion2.git
+    version: 1.2.0
+    # version: humble-devel
+
+  pmb2_robot:
+    type: git
+    #url: https://github.com/pal-robotics/pmb2_robot.git
+    # Version for STERO:
+    url: https://github.com/RCPRG-ros-pkg/pmb2_robot.git
+    version: humble-devel
+  pmb2_navigation:
+    type: git
+    url: https://github.com/pal-robotics/pmb2_navigation.git
+    version: 4.1.1
+    # version: humble-devel
+  pal_navigation_cfg_public:
+    type: git
+    url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
+    version: 3.0.6
+    # version: humble-devel
+
+  tiago_robot:
+    type: git
+    #url: https://github.com/pal-robotics/tiago_robot.git
+    # Version for STERO:
+    url: https://github.com/RCPRG-ros-pkg/tiago_robot2.git
+    version: humble-devel
+  tiago_navigation:
+    type: git
+    url: https://github.com/pal-robotics/tiago_navigation.git
+    version: 4.1.7
+    # version: humble-devel
+  tiago_simulation:
+    type: git
+    #url: https://github.com/pal-robotics/tiago_simulation.git
+    # Version for STERO:
+    url: https://github.com/RCPRG-ros-pkg/tiago_simulation.git
+    version: humble-devel
+  pal_hey5:
+    type: git
+    url: https://github.com/pal-robotics/pal_hey5.git
+    version: 4.1.0
+    # version: humble-devel
+  pal_gripper:
+    type: git
+    url: https://github.com/pal-robotics/pal_gripper.git
+    version: 3.2.0
+    # version: humble-devel
+  pal_robotiq_gripper:
+    type: git
+    url: https://github.com/pal-robotics/pal_robotiq_gripper.git
+    version: 2.1.0
+    # version: humble-devel
+  tiago_moveit_config:
+    type: git
+    url: https://github.com/pal-robotics/tiago_moveit_config.git
+    version: 3.0.18
+    # version: humble-devel
+
+  gazebo-grasp-plugin:
+    type: git
+    url: https://github.com/RCPRG-ros-pkg/gazebo-grasp-plugin.git
+    version: humble-grasp-fix
