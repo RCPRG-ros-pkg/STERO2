@@ -60,3 +60,16 @@ Launch gazebo simulation:
 ```console
 ros2 launch tiago_gazebo tiago_gazebo.launch.py navigation:=True moveit:=True is_public_sim:=True use_grasp_fix_plugin:=True
 ```
+
+## Launch description
+
+Simulated Tiago robot is a complex system. The main launch file includes a lot of other launch files.
+
+### Visualization of launch description
+
+To get track of all nodes, executable, variables ,substitutions, etc., you can use show_launch_description.py tool.
+It is much more powerful than **ros2 launch -p**.
+
+```console
+show_launch_description.py ~/tiago_public_ws_stero/src/tiago_simulation/tiago_gazebo/launch/tiago_gazebo.launch.py
+```

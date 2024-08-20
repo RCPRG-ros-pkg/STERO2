@@ -62,15 +62,19 @@ def generic_visit(ent, indent):
         pass
 
     try:
-        for sub_ent in ent.get_sub_entities():
-            printInfo(sub_ent, indent=indent+indent_size)
+        if len(ent.get_sub_entities()) > 0:
+            print('{}sub entities:'.format(indent+indent_size))
+            for sub_ent in ent.get_sub_entities():
+                printInfo(sub_ent, indent=indent+indent_size*2)
     except:
         pass
 
     try:
-        for cmd in ent.cmd:
-            for c in cmd:
-                printInfo(c, indent=indent+indent_size*2)
+        if len(ent.cmd) > 0:
+            print('{}cmd entities:'.format(indent+indent_size))
+            for cmd in ent.cmd:
+                for c in cmd:
+                    printInfo(c, indent=indent+indent_size*2)
     except:
         pass
 
@@ -79,6 +83,7 @@ def printInfo(ent, indent=None):
         indent = ''
 
     if isinstance(ent, LaunchDescription):
+        print('{}LaunchDescription:'.format(indent))
         for sub_ent in ent.entities:
             printInfo(sub_ent, indent=indent+indent_size)
 
