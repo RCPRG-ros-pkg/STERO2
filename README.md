@@ -71,5 +71,5 @@ To get track of all nodes, executable, variables ,substitutions, etc., you can u
 It is much more powerful than **ros2 launch -p**.
 
 ```console
-show_launch_description.py ~/tiago_public_ws_stero/src/tiago_simulation/tiago_gazebo/launch/tiago_gazebo.launch.py
+show_launch_description.py ~/tiago_public_ws/src/tiago_simulation/tiago_gazebo/launch/tiago_gazebo.launch.py
 ```
