@@ -23,7 +23,7 @@ Create a workspace and clone all repositories:
 ```console
 mkdir -p ~/tiago_public_ws/src
 cd ~/tiago_public_ws
-vcs import --input https://github.com/RCPRG-ros-pkg/STERO2/blob/iron/tiago_public_stero.repos src
+vcs import --input https://raw.githubusercontent.com/RCPRG-ros-pkg/STERO2/refs/heads/iron/tiago_public_stero.repos src
 ```
 
 Install dependencies using rosdep
