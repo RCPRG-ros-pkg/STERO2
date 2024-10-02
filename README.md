@@ -1,5 +1,4 @@
 # STERO2
-==================
 
 This repository contains the launch files to simulate the TIAGo robot in ROS 2.
 
@@ -7,7 +6,7 @@ This repository contains the launch files to simulate the TIAGo robot in ROS 2.
 
 ### Prerequisites
 
-1. Install ROS 2 Humble by following the [installation instructions](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
+1. Install ROS 2 Iron by following the [installation instructions](https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debs.html).
 
 2. Update the apt package index and install needed packages
 
@@ -24,7 +23,7 @@ Create a workspace and clone all repositories:
 ```console
 mkdir -p ~/tiago_public_ws/src
 cd ~/tiago_public_ws
-vcs import --input https://raw.githubusercontent.com/RCPRG-ros-pkg/STERO2/main/tiago_public_stero.repos src
+vcs import --input https://gitlab-stud.elka.pw.edu.pl/stero/STERO2/-/raw/iron/tiago_public_stero.repos src
 ```
 
 Install dependencies using rosdep
@@ -32,13 +31,13 @@ Install dependencies using rosdep
 ```console
 sudo rosdep init
 rosdep update
-rosdep install --from-paths src -y --ignore-src
+rosdep install --from-paths src -y --ignore-src --rosdistro iron
 ```
 
 Source the environment and build
 
 ```console
-source /opt/ros/humble/setup.bash
+source /opt/ros/iron/setup.bash
 colcon build --symlink-install
 ```
 

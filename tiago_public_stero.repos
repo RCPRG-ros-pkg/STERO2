@@ -21,21 +21,25 @@ repositories:
     # version: humble-devel
   play_motion2:
     type: git
-    url: https://github.com/pal-robotics/play_motion2.git
-    version: 1.2.0
+    url: https://github.com/RCPRG-ros-pkg/play_motion2.git
+    version: iron-devel
+    #url: https://github.com/pal-robotics/play_motion2.git
+    #version: 1.2.0
     # version: humble-devel
 
   pmb2_robot:
     type: git
-    #url: https://github.com/pal-robotics/pmb2_robot.git
-    # Version for STERO:
     url: https://github.com/RCPRG-ros-pkg/pmb2_robot.git
     version: humble-devel
+    #url: https://github.com/pal-robotics/pmb2_robot.git
+    # Version for STERO:
+
   pmb2_navigation:
     type: git
     url: https://github.com/pal-robotics/pmb2_navigation.git
     version: 4.1.1
     # version: humble-devel
+
   pal_navigation_cfg_public:
     type: git
     url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
@@ -44,21 +48,22 @@ repositories:
 
   tiago_robot:
     type: git
-    #url: https://github.com/pal-robotics/tiago_robot.git
-    # Version for STERO:
     url: https://github.com/RCPRG-ros-pkg/tiago_robot2.git
-    version: humble-devel
+    version: iron-devel
+    #url: https://github.com/pal-robotics/tiago_robot.git
   tiago_navigation:
     type: git
-    url: https://github.com/pal-robotics/tiago_navigation.git
-    version: 4.1.7
+    url: https://github.com/RCPRG-ros-pkg/tiago_navigation.git
+    version: 4.1.7b
+    #url: https://github.com/pal-robotics/tiago_navigation.git
+    #version: 4.1.7
     # version: humble-devel
+
   tiago_simulation:
     type: git
-    #url: https://github.com/pal-robotics/tiago_simulation.git
-    # Version for STERO:
     url: https://github.com/RCPRG-ros-pkg/tiago_simulation.git
-    version: humble-devel
+    version: iron-devel
+    #url: https://github.com/pal-robotics/tiago_simulation.git
   pal_hey5:
     type: git
     url: https://github.com/pal-robotics/pal_hey5.git
@@ -76,11 +81,21 @@ repositories:
     # version: humble-devel
   tiago_moveit_config:
     type: git
-    url: https://github.com/pal-robotics/tiago_moveit_config.git
-    version: 3.0.18
+    url: https://github.com/RCPRG-ros-pkg/tiago_moveit_config.git
+    version: 3.0.18b
+    #url: https://github.com/pal-robotics/tiago_moveit_config.git
+    #version: 3.0.18
     # version: humble-devel
 
   gazebo-grasp-plugin:
     type: git
     url: https://github.com/RCPRG-ros-pkg/gazebo-grasp-plugin.git
     version: humble-grasp-fix
+  pal_gazebo_plugins:
+    type: git
+    url: https://github.com/pal-robotics/pal_gazebo_plugins.git
+    version: humble-devel
+  pal_maps:
+    type: git
+    url: https://github.com/pal-robotics/pal_maps.git
+    version: humble-devel
