@@ -94,7 +94,7 @@ repositories:
   pal_gazebo_plugins:
     type: git
     url: https://github.com/pal-robotics/pal_gazebo_plugins.git
-    version: humble-devel
+    version: 4.0.5
   pal_maps:
     type: git
     url: https://github.com/pal-robotics/pal_maps.git
