@@ -98,4 +98,5 @@ repositories:
   pal_maps:
     type: git
     url: https://github.com/pal-robotics/pal_maps.git
-    version: humble-devel
+    version: 0.0.5
+    #version: humble-devel
